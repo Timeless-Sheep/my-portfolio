@@ -10,13 +10,12 @@
 	margin: -1rem -1rem;
 }
 
-.gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-	overflow: hidden;
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
 }
 
 .gallery-image {
@@ -44,4 +43,16 @@
 	}
 }
 
+@media only screen and (max-width: 360px) {
+	.container-gallery {
+	margin: 5em;
+	}
+	
+	.gallery-image {
+	width: 95%;
+	}
+}
 
+.container-h1{
+	
+}
