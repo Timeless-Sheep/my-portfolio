@@ -1,0 +1,318 @@
+/* ******* ABOUT ME EDIT ***** */
+.me {
+    margin: 10px;
+    position: relative;
+    left: 30%;
+    border-radius: 50%;
+    
+}
+
+@media (width: 780px) and (min-width: 100px) {
+    .me {
+    display: flex;
+    flex-direction: column;
+    }
+} 
+@media (width: 340px){
+    .me {
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    }
+} 
+.name-color{
+    color: aquamarine;
+
+}
+.abm-container {
+    position: relative;
+    width: 50%;
+    
+}
+.abm-container:hover .overlay {
+    width: 100%;
+}
+
+.clrme{
+    color: aquamarine;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 32.8rem;
+    right: 0;
+    background-color: rgba(170, 170, 170, 0);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1s ease;
+    border-radius: 0% 75px 75px 0%;
+    
+}
+
+@media (max-width: 780px) and (min-width: 100px) {
+    .overlay {
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+        right: 50%;
+        background-color: #81818167;
+        overflow: hidden;
+        width: 300px;
+        height:0;
+        transition: .5s ease;
+        
+    }
+
+    .abm-container:hover .overlay {
+        bottom: 0;
+        height: 100px;
+    }
+    
+    .msg::after {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-70%, -70%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .clrme::after{
+        color: aquamarine;
+    }
+}
+
+.msg {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.h1pos{
+    display: 'flex';
+    justify-content: 'Right';
+    align-items: 'Right';
+    height: '100vh';
+
+}
+
+.box2{
+    margin: 3% 10%;
+    background: scroll;
+    background-color: rgba(170, 170, 170, 0.795);
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 12px 12px 12px;
+
+}
+
+/******** HOVER CARDS ********/
+
+.cards{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+
+    
+}
+.cards h1{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.content .fab{
+    font-size: 70px;
+    margin: 16px 0;
+}
+  .content > *{
+    flex: 1 1 100%;
+}
+.content:hover{
+    color: white;
+}
+.content:hover a{
+    border-color: white;
+    background: white;
+}
+.content-1:hover{
+    border-color: #4267B2;
+    background: #4267B2;
+}
+.content-1:hover a{
+    color: #4267B2;
+}
+.content-2:hover{
+    border-color: #075e54;
+    background: #075e54;
+}
+.content-2:hover a{
+    color: #075e54;
+}
+.content-3:hover{
+    border-color: #ff0000;
+    background: #ff0000;
+}
+.content-3:hover a{
+    color: #ff0000;
+}
+.content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+.content a{
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+}
+.content a:hover{
+    border-radius: 4px;
+}
+@media (max-width: 900px) {
+    .services{
+    display: flex;
+    flex-direction: column;
+    }
+}  
+
+
+
+.services{
+    display: flex;
+    align-items: center;
+    
+}
+.sect {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sect ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+/* *********** i c o n s*************** */
+
+.imicon{
+    -moz-transition: filter 0.4s ease;
+    -o-transition: filter 0.4s ease;
+    transition: filter 0.4s ease;
+    transition: filter 0.4s ease, -webkit-filter 0.4s ease;
+    -webkit-transition: -webkit-filter 0.4s ease;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+.bg-dark {
+    background-color: #2d3436;
+    width: auto;
+}
+.bg-dark .ul .li img.imicon {
+    -moz-transition: filter 0.4s ease;
+    -o-transition: filter 0.4s ease;
+    transition: filter 0.4s ease;
+    transition: filter 0.4s ease, -webkit-filter 0.4s ease;
+    -webkit-transition: -webkit-filter 0.4s ease;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+.bg-dark ul li img.imicon:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* Styles for Samsung 9+ */
+    .me {
+        margin: 2px;
+        position: relative;
+        border-radius: 50%;
+        
+    }
+    /* Adjust the size of the social media icons */
+    .imicon {
+    width: 30px;
+    height: 30px;
+    }
+    
+    /* Center the content in the card */
+    .cards .content {
+    text-align: center;
+    }
+    
+    /* Reduce the font size of the card content */
+    .cards h2, .cards p {
+    font-size: 16px;
+    }
+    
+    /* Adjust the margin and padding of the card */
+    .cards .content {
+    margin: 10px 0;
+    padding: 20px;
+    }
+    
+    /* Reduce the font size of the name in the about me section */
+    .clrme {
+    font-size: 24px;
+    }
+    
+    /* Adjust the position of the overlay */
+    .overlay {
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+    
+    /* Reduce the font size of the message in the about me section */
+    .msg {
+    font-size: 16px;
+    }
+    
+    /* Adjust the position of the Spotify component */
+    .spotify-container {
+    margin-top: 30px;
+    }
+}
