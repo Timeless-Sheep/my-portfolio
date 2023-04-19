@@ -7,19 +7,13 @@
     
 }
 
-@media (width: 780px) and (min-width: 100px) {
+@media only screen and (max-width: 480px) {
     .me {
-    display: flex;
-    flex-direction: column;
+      margin: 5px;
+      left: 3.5%;
     }
-} 
-@media (width: 340px){
-    .me {
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-    }
-} 
+  }
+
 .name-color{
     color: aquamarine;
 
@@ -263,56 +257,3 @@
 }
 
 
-@media only screen and (max-width: 320px) {
-    /* Styles for Samsung 9+ */
-    .me {
-        margin: 2px;
-        position: relative;
-        border-radius: 50%;
-        
-    }
-    /* Adjust the size of the social media icons */
-    .imicon {
-    width: 30px;
-    height: 30px;
-    }
-    
-    /* Center the content in the card */
-    .cards .content {
-    text-align: center;
-    }
-    
-    /* Reduce the font size of the card content */
-    .cards h2, .cards p {
-    font-size: 16px;
-    }
-    
-    /* Adjust the margin and padding of the card */
-    .cards .content {
-    margin: 10px 0;
-    padding: 20px;
-    }
-    
-    /* Reduce the font size of the name in the about me section */
-    .clrme {
-    font-size: 24px;
-    }
-    
-    /* Adjust the position of the overlay */
-    .overlay {
-    top: 20%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    }
-    
-    /* Reduce the font size of the message in the about me section */
-    .msg {
-    font-size: 16px;
-    }
-    
-    /* Adjust the position of the Spotify component */
-    .spotify-container {
-    margin-top: 30px;
-    }
-}

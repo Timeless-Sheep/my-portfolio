@@ -7,7 +7,7 @@ import "../style/gallery.css";
 const Gallery = () => {
     return (
             <div className="container-gallery">
-            <h1>Images & Videos highlight</h1>
+            <h1 className='container-h1'>Images & Videos highlight</h1>
             <div className="gallery">
                 <div className="gallery-item">
                 <img className="gallery-image" src={omen} alt="abstract Person" />
