@@ -50,9 +50,11 @@
 	
 	.gallery-image {
 	width: 95%;
+	padding-bottom: 2rem;
 	}
 }
 
 .container-h1{
-	
+	color: aliceblue;
+	font: 300px;
 }
