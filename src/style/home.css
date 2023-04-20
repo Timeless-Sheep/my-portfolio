@@ -8,7 +8,7 @@ header {
     background-color: rgba(255, 255, 255, 0); /* Set your desired background color */
     z-index: 1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
-  }
+}
 
 .nav {
     margin: auto 700px;
@@ -85,5 +85,5 @@ header {
     padding-top: 1em;
     margin: auto 2em;
     color: #fff;
-    font-family: monospace;
+    font-family: sans-serif;
 }
