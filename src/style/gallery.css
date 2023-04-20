@@ -18,7 +18,6 @@
 
 .gallery-image:hover {
 	transform: scale(1.15);
-
 }
 
 @media (min-width: 380px){
