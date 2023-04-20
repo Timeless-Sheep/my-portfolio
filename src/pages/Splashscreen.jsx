@@ -14,7 +14,6 @@ const SplashScreen = () => {
                 <p className='sp'>FLOW <span>MATIC</span></p>
             </div>
         </div>
-
     )
 }
 
