@@ -9,10 +9,10 @@
 
 @media only screen and (max-width: 480px) {
     .me {
-      margin: 5px;
-      left: 3.5%;
+    margin: 5px;
+    left: 3.5%;
     }
-  }
+}
 
 .name-color{
     color: aquamarine;

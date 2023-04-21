@@ -4,9 +4,8 @@
     justify-content: center;
     height: 100vh;
     background: rgb(5,20,42);
-    background: radial-gradient(circle, rgba(5,20,42,0.938813025210084) 0%, rgba(4,81,150,1) 51%, rgba(56,102,143,1) 57%, rgba(5,5,5,1) 100%);
+    background: radial-gradient(circle, rgba(5,20,42,1) 0%, rgba(4,64,119,0.4542191876750701) 43%, rgba(26,42,57,1) 54%, rgba(5,5,5,1) 100%);
 }
-
 .loader {
     position: absolute;
     top: 50%;
@@ -97,11 +96,28 @@ transform: rotate(45deg);
     }
 }
 
+@media only screen and (max-width: 1920px) {
+    .spinner {
+    margin: 5px;
+    top: 39.3%;
+    left: 44.5%;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+.spinner {
+    top: 40%;
+    left: 50%;
+    }
+}
+*/
+
 @media only screen and (max-width: 480px) {
     .spinner {
     margin: 5px;
-    top: 34%;
-    left: 22.6%;
+    height: 80px;
+    width: 80px;
+
     }
 }
 

@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowSplashscreen(false);
-    }, 2500);
+    }, 9992500);
 
     return () => {
       clearTimeout(timeoutId);
