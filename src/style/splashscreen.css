@@ -70,9 +70,9 @@
     width: 200px;
     height: 200px;
     display: grid;
-    color: #2a6fdf;
+    color: #214c91;
     background: radial-gradient(farthest-side, currentColor calc(100% - 9px),#0000 calc(100% - 9px) 0);
-    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 25px),#000 calc(100% - 30px));
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 20px),#000 calc(100% - 30px));
     border-radius: 50%;
     animation: spinner-sm4bhi 2s infinite linear;
 }
@@ -83,7 +83,7 @@ content: "";
 grid-area: 1/1;
 background: linear-gradient(currentColor 0 0) center,
             linear-gradient(currentColor 0 0) center;
-background-size: 100% 20px,20px 100%;
+background-size: 100% 30px,30px 100%;
 background-repeat: no-repeat;
 }
 
@@ -96,13 +96,13 @@ transform: rotate(45deg);
     }
 }
 
-@media only screen and (max-width: 1920px) {
+/* @media only screen and (max-width: 1920px) {
     .spinner {
     margin: 5px;
     top: 39.3%;
     left: 44.5%;
     }
-}
+} */
 
 /* @media screen and (max-width: 768px) {
 .spinner {
@@ -112,12 +112,12 @@ transform: rotate(45deg);
 }
 */
 
+
 @media only screen and (max-width: 480px) {
     .spinner {
     margin: 5px;
-    height: 80px;
-    width: 80px;
-
+    top: 34%;
+    left: 22.6%;
     }
 }
 
