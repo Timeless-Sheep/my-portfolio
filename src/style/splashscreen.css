@@ -3,8 +3,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(5,20,42);
-    background: radial-gradient(circle, rgba(5,20,42,1) 0%, rgba(4,64,119,0.4542191876750701) 43%, rgba(26,42,57,1) 54%, rgba(5,5,5,1) 100%);
+    width: 100vw;
+    background-image: radial-gradient(circle, rgba(5,20,42,1) 0%, rgba(4,64,119,0.4542191876750701) 43%, rgba(26,42,57,1) 54%, rgba(5,5,5,1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .loader {
     position: absolute;
